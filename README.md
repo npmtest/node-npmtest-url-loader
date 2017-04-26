@@ -1,6 +1,6 @@
 # npmtest-url-loader
 
-#### test coverage for  [url-loader (v0.5.8)](https://github.com/webpack/url-loader#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-url-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-url-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-url-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-url-loader)
+#### basic test coverage for  [url-loader (v0.5.8)](https://github.com/webpack/url-loader#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-url-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-url-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-url-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-url-loader)
 
 #### url loader module for webpack
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-url-loader/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-url-loader/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-url-loader/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-url-loader/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-url-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-url-loader/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-url-loader/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-url-loader/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-url-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-url-loader/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-url-loader/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-url-loader/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
         "url": "git+ssh://git@github.com/webpack/url-loader.git"
     },
     "scripts": {},
-    "version": "0.5.8"
+    "version": "0.5.8",
+    "bin": {}
 }
 ```
 
